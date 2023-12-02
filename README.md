@@ -26,14 +26,23 @@ Scheduler : Executed every 10ms.
 
 3-WiprSpdReq : Required speed in case of automatic mode [1,2,3,4,5,6,7]
 
+* WiprSpdReq =0 => 0%
+* WiprSpdReq =1 => 40%
+* WiprSpdReq =2 => 45%
+* WiprSpdReq =3 => 50%
+* WiprSpdReq =4 => 55%
+* WiprSpdReq =5 => 60% 
+* WiprSpdReq =6 => 65% 
+* WiprSpdReq =7 => 70%
+
 **Wiper System Control Processing:**
 
 * WiprMod=0-->WiprMotPwmDutyCyc = 0 %
 * WiprMod=1
 
-if RainSnsrErr is true then WiprMotPwmDutyCyc=0
+if RainSnsrErr is true then **WiprMotPwmDutyCyc=0**
 
 else
 
-* WiprMod=2-->WiprMotPwmDutyCyc = 40%.
-* WiprMod=3-->iprMotPwmDutyCyc = 70%.
+* WiprMod=2-->**WiprMotPwmDutyCyc = 40%.**
+* WiprMod=3-->**iprMotPwmDutyCyc = 70%.**
