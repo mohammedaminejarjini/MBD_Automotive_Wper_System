@@ -6,9 +6,7 @@ In this repository you will find a model for wiper system and the code automatic
 
 Scheduler : Executed every 10ms.
 
--The fisrt and principal output of this Software Component will be Wiper Motor PWM duty cycle 
-
-**WiprMotPwmDutyCyc** 
+-The fisrt and principal output of this Software Component will be Wiper Motor PWM duty cycle     **WiprMotPwmDutyCyc** 
 
 -The second output is a flag indicatng if the Wiper motor is activated or not: **WiprActiv** (0=Stop 1=Acivated)
 
@@ -33,7 +31,8 @@ Scheduler : Executed every 10ms.
 * WiprMod=0-->WiprMotPwmDutyCyc = 0 %
 * WiprMod=1
 
-if RainSnsrErr is true then WiprMotPwmDutyCyc=0*
+if RainSnsrErr is true then WiprMotPwmDutyCyc=0
+
 else
 
 * WiprMod=2-->WiprMotPwmDutyCyc = 40%.
