@@ -5,7 +5,7 @@ Scheduler : Executed every 10ms.
 The fisrt and principal output of this Software Component will be Wiper Motor PWM duty cycle WiprMotPwmDutyCyc
 The second output is a flag indicatng if the Wiper motor is activated or not: WiprActiv (0=Stop 1=Acivated)
 Model Inputs:
-1-WiprMod : 4 wiper modes
+1-WiprMod : 4 wiper modes \n
 -> 0=>OFF
 -> 1=>Aut
 -> 2=>LoSpd
