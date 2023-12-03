@@ -19,7 +19,7 @@ Scheduler : Executed every 10ms.
 * 2=>LoSpd
 * 3=>HiSpd
 
-2-RainSnsrErr : boolean indicates if ther is a sesor error or not
+2-RainSnsrErr : boolean indicates if ther is a sensor error or not
 
 * 0=no error
 * 1=error
@@ -46,3 +46,17 @@ else
 
 * WiprMod=2-->**WiprMotPwmDutyCyc = 40%.**
 * WiprMod=3-->**iprMotPwmDutyCyc = 70%.**
+
+## Code generation
+
+The C code of our model is automaticaly generated using embedded coder in Simulink.
+
+**files generated**
+
+* WiperMotor.c : Imlementation of the fuction that control the WiecerMotor.
+
+* WiperMotor.h
+
+* ert_main
+
+*rtwtyes : Data types definition
